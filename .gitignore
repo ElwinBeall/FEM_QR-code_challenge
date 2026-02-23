@@ -16,4 +16,4 @@
 .prettierignore
 
 # Prevent VSCode worspace file
-.code-workspace
+*.code-workspace
