@@ -16,26 +16,16 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repo (this page)](https://github.com/ElwinBeall/FEM_QR-code_challenge)
+- Live Site URL: [github.io page](https://elwinbeall.github.io/FEM_QR-code_challenge/)
 
 ## My process
 
@@ -44,70 +34,60 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I've mostly been working back-end development for the last few years, but since layoffs I've decided to work on UI/UX to review.
 
-To see how you can add code snippets, see below:
+Here are just a few things I'm re-engaging.
+
+Trying to use sematic tags,
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <body>
+    <main>
+      <section>
+        <article class= ...
 ```
 
+and emembering to set defaults in CSS:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I didn't need to use JavaScript in this challenge, but reviewing all this brought back a few memories of things like jQuery, promises, and how you can use JavaScript to manipulate the DOM.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I think this it's necessary to continuously improve, to develop new skills and try to employ those skills.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+That's why I decided to try some of the Frontend Mentor challenges.
 
 ### Useful resources
 
-- [Modern Normalize](https://github.com/sindresorhus/modern-normalize) - While I didn't link this stylesheet, I did use parts of the reset portion at the top. It has been a while since I've worked with CSS, and this was very handy.
-- [Figma](https://www.figma.com) - I used Figma during my first experience with design and layout in a UI/UX course. The free tier is great for viewing the **.fig** files.
+I've found (and used) several useful tools in the last few years. **Modern Normalize** and **Figma** are mentioned on the default README.md.
+
+Most of the ones I use now are extensions in VSCode, but there are a few others like **Vite** and **Restfox** to name a couple more.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+While I don't plan on using AI for the Frontend Mentor projects, I am trying to find the time to go through Udemy courses and learn more.
 
 ## Author
 
 - Website - [Elwin Beall](https://www.your-site.com)
 - Frontend Mentor - [@ElwinBeall](https://www.frontendmentor.io/profile/ElwinBeall)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I did watch YouTube videos for quick tutorials on a few of the properties I've forgotten.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I think for quick descriptions of CSS properties, Kevin Powell's videos are great. For more in-depth tutorials, Travesity Media is pretty good.
+
+There are several others that are really good. Of course, I also study using Udemy.com for engaging coursework.
