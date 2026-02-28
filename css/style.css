@@ -29,10 +29,6 @@ body {
   justify-content: space-evenly;
 }
 
-body p {
-  font-size: 1.5 rem;
-}
-
 .qr_component {
   width: 320px;
   height: 499px;
@@ -53,7 +49,7 @@ body p {
 .qr_component h2 {
   width: 256px;
   height: 52px;
-  font-size: 22px;
+  font-size: 1.375em;
   line-height: 120%;
   letter-spacing: 0px;
   color: var(--slate900);
@@ -63,7 +59,7 @@ body p {
 .qr_component p {
   width: 256px;
   height: 63px;
-  font-size: 15px;
+  font-size: 0.9375em;
   line-height: 140%;
   letter-spacing: 0.2px;
   color: var(--slate500);
